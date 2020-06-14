@@ -4,16 +4,9 @@
 body {
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
     overflow-x: hidden;
     box-sizing: border-box;
 
-}
-
-.wrapper {
-    /* max-width: 96%;
-    margin-left: 2%;
-    border: 1px solid red; */
 }
 
 .illus1 {
@@ -21,7 +14,6 @@ body {
     width: 125px;
     margin-top: -30px;
     margin-left: -30px;
-    /* position: fixed; */
 }
 
 .upr-text {
@@ -32,8 +24,6 @@ body {
     margin-top: 80px;
     font-family: 'Arimo', sans-serif;
     font-weight: 700;
-    /* letter-spacing: 2px; */
-    /* line-height: 70px */
 }
 
 .upr-text p {
@@ -46,7 +36,6 @@ body {
     height: 600px;
     width: 900px;
     margin-top: -50px;
-    /* margin-left: 50px;    */
 }
 
 .illus3 {
@@ -54,8 +43,6 @@ body {
 }
 
 .mid p {
-    /* text-align: center; */
-    /* border: 1px solid red; */
     font-family: 'Arimo', sans-serif;
     font-size: large;
 }
@@ -76,7 +63,6 @@ body {
 
 .line {
     border: 1px solid black;
-    /* height: 100px; */
     width: 0;
     margin: auto;
     background-color: black;
@@ -85,7 +71,6 @@ body {
 }
 
 .col-md-3 {
-    /* border: 1px solid red; */
     text-align: center;
 }
 
@@ -98,8 +83,6 @@ body {
     height: 250px;
     width: 250px;
     margin-top: 50px !important;
-    /* margin: auto !important; */
-    /* border: 1px solid red; */
 }
 
 .lower-text p {
@@ -167,7 +150,6 @@ body {
 
     .col-md-3 svg {
         width: 60%;
-        /* margin: auto; */
     }
 
     .col-md-3 {
