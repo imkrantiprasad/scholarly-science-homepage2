@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1301.906" height="328.974" viewBox="0 0 1301.906 328.974">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.827" x2="0.013" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cffafe"/>
+      <stop offset="1" stop-color="#6de1f9"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1954" data-name="Group 1954" transform="translate(-663.093 -1828.751)">
+    <path id="Path_4113" data-name="Path 4113" d="M10950.247-2302.663c11.034-3.448,21.724-3.448,28.965,0s13.793,7.931,0,13.793-35.517,7.241-55.172,9.655-18.966,2.414-23.448,0-3.1-7.241,5.518-9.655,17.931,3.448,28.965,0S10939.213-2299.215,10950.247-2302.663Z" transform="translate(-10235.001 4134)" fill="#ffbe76"/>
+    <g id="Group_1953" data-name="Group 1953">
+      <path id="Path_4641" data-name="Path 4641" d="M14457.748,5610.732V5463.938s-36.306-31.5-87.673-51.279-117.792-27.831-117.792-27.831-48.681-8.092-95.324-4.577-91.249,18.641-91.249,18.641-115.337,35.918-118.367,35.5-2.462-7.145-4.465-7.515-3.715-2.276-30.76,8.5-75.771,34.573-75.771,34.573-5.983-2.032-9.188-1.824-27.831,15.691-27.831,15.691-7.465,1.849-10.492,0-6.012-8.39-6.012-8.39-27.623,21.009-70.906,35.511-102.781,21.041-102.781,21.041v18.985a2.333,2.333,0,0,1-2.138,2.33,3.132,3.132,0,0,1-3.259-1.223l-10.242-12.785v16.1l-4.482-11.6v12.784l-6.4,2.368v-15.152h-3.521l-1.92,7.179-7.682-1.733-2.562,6.155,5.442,3.551v4.734h-10.242s-12.1,4.571-28.7,9.37-37.694,9.826-37.694,9.826l-12.5-.719a28.8,28.8,0,0,1-1.393,5.591,16.7,16.7,0,0,1-2.453,4.218,16.176,16.176,0,0,1-4.111,1.521,35.238,35.238,0,0,1-5.5.637h-5.437a28.3,28.3,0,0,1-6.168,4.708c-2.983,1.471-9.43,3.84-21.528,4.075s-28.807,10.2-28.807,10.2Z" transform="translate(-12492.749 -3455.365)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_109" data-name="Ellipse 109" cx="3.5" cy="3.5" r="3.5" transform="translate(1582 2031)" fill="#1d95f7"/>
+      <ellipse id="Ellipse_111" data-name="Ellipse 111" cx="5" cy="4.5" rx="5" ry="4.5" transform="translate(1594 1956)" fill="#1d95f7"/>
+      <ellipse id="Ellipse_112" data-name="Ellipse 112" cx="5" cy="5.5" rx="5" ry="5.5" transform="translate(1559 1907)" fill="#1d95f7"/>
+      <ellipse id="Ellipse_115" data-name="Ellipse 115" cx="1.5" cy="2" rx="1.5" ry="2" transform="translate(1612 1894)" fill="#1d95f7"/>
+      <circle id="Ellipse_116" data-name="Ellipse 116" cx="12" cy="12" r="12" transform="translate(1716 1905)" fill="#1d95f7"/>
+      <ellipse id="Ellipse_119" data-name="Ellipse 119" cx="7.5" cy="7" rx="7.5" ry="7" transform="translate(1546 2038)" fill="#fe8f30"/>
+      <ellipse id="Ellipse_120" data-name="Ellipse 120" cx="8" cy="8.5" rx="8" ry="8.5" transform="translate(1504 1870)" fill="#fe8f30"/>
+      <ellipse id="Ellipse_121" data-name="Ellipse 121" cx="7" cy="7.5" rx="7" ry="7.5" transform="translate(1627 1873)" fill="#fe8f30"/>
+      <ellipse id="Ellipse_122" data-name="Ellipse 122" cx="9.5" cy="9" rx="9.5" ry="9" transform="translate(1632 1989)" fill="#fe8f30"/>
+      <ellipse id="Ellipse_123" data-name="Ellipse 123" cx="2" cy="3" rx="2" ry="3" transform="translate(1586 1842)" fill="#fe8f30"/>
+      <circle id="Ellipse_124" data-name="Ellipse 124" cx="18.5" cy="18.5" r="18.5" transform="translate(1722 1829)" fill="#fe8f30"/>
+    </g>
+  </g>
+</svg>
