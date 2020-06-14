@@ -60,11 +60,6 @@ body {
     font-size: large;
 }
 
-.col-md-2,
-.col-md-4 {
-    /* border: 1px solid red; */
-}
-
 .mid-text {
     font-size: large;
     font-family: 'Oxygen', sans-serif;
