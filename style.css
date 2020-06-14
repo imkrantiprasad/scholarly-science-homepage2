@@ -74,6 +74,16 @@ body {
     height: 500px;
 }
 
+.line {
+    border: 1px solid black;
+    /* height: 100px; */
+    width: 0;
+    margin: auto;
+    background-color: black;
+    padding-top: 300px;
+    margin-top: 50px;
+}
+
 /* .illus4,
 .illus5 {
     margin-top: 50px;
@@ -84,7 +94,7 @@ body {
     width: 200px;
 }
 
-.col-md-4 svg {
+.col-md-3 svg {
     height: 250px;
     width: 250px;
     margin-top: 50px !important;
@@ -110,6 +120,10 @@ body {
         height: 450px;
         width: 600px;
         margin-top: 0px;
+    }
+
+    .line {
+        display: none;
     }
 
     .illus7 {
@@ -150,12 +164,12 @@ body {
         margin: auto;
     }
 
-    .col-md-4 svg {
+    .col-md-3 svg {
         width: 60%;
         /* margin: auto; */
     }
 
-    .col-md-4 {
+    .col-md-3 {
         margin: auto;
     }
 
