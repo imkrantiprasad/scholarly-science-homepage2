@@ -2,168 +2,251 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
 
 body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    background: white;
+    /* z-index: 999; */
+    position: fixed;
+}
+
+.navBar.scrolled {
+    z-index: 1000;
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(180, 180, 180);
+    -moz-box-shadow: 0 8px 6px -6px rgb(180, 180, 180);
+    box-shadow: 0 8px 6px -6px rgb(180, 180, 180);
+}
+
+ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav-list {
+    /* float: right; */
+    margin-left: 180px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    color: black;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    /* background: #3b93ff; */
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+
+.toggle i {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        float: none;
+        margin-left: 0;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    ul {
+        width: 100%;
+        display: block;
+    }
+
+    ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .active {
+        display: none;
+    }
 }
 
 .illus1 {
-  height: 125px;
-  width: 125px;
-  margin-top: -30px;
-  margin-left: -30px;
+    height: 125px;
+    width: 125px;
+    margin-top: -30px;
+    margin-left: -30px;
 }
 
 .upr-text {
-  margin-left: 60px;
+    margin-left: 60px;
 }
 
 .upr-text h1 {
-  margin-top: 80px;
-  font-family: "Arimo", sans-serif;
-  font-weight: 700;
+    margin-top: 80px;
+    font-family: "Arimo", sans-serif;
+    font-weight: 700;
 }
 
 .upr-text p {
-  font-size: 22px;
-  font-family: "Oxygen", sans-serif;
-  text-align: justify;
+    font-size: 22px;
+    font-family: "Oxygen", sans-serif;
+    text-align: justify;
 }
 
 .illus2 {
-  height: 600px;
-  width: 900px;
-  margin-top: -50px;
+    height: 600px;
+    width: 900px;
+    margin-top: -50px;
 }
 
 .illus3 {
-  margin-left: -150px;
+    margin-left: -150px;
 }
 
 .mid p {
-  font-family: "Arimo", sans-serif;
-  font-size: large;
+    font-family: "Arimo", sans-serif;
+    font-size: large;
 }
 
 .mid-text {
-  font-size: large;
-  font-family: "Oxygen", sans-serif;
-  max-width: 70%;
-  line-height: 30px;
-  margin: auto;
-  text-align: center;
-  font-weight: 700;
-  margin-top: -30px;
+    font-size: large;
+    font-family: "Oxygen", sans-serif;
+    max-width: 70%;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -30px;
 }
 
 .illus4 {
-  margin-top: 100px;
-  margin-left: -150px;
-  height: 500px;
+    margin-top: 100px;
+    margin-left: -150px;
+    height: 500px;
 }
 
 .line {
-  border: 1px solid black;
-  width: 0;
-  margin: auto;
-  background-color: black;
-  padding: 100px 0px;
-  margin-top: 80px;
+    border: 1px solid black;
+    width: 0;
+    margin: auto;
+    background-color: black;
+    padding: 100px 0px;
+    margin-top: 80px;
 }
 
 .col-md-3 {
-  text-align: center;
+    text-align: center;
 }
 
 .illus7 {
-  height: 300px;
-  width: 200px;
+    height: 300px;
+    width: 200px;
 }
 
 .col-md-3 svg {
-  height: 250px;
-  width: 250px;
-  margin-top: 50px !important;
+    height: 250px;
+    width: 250px;
+    margin-top: 50px !important;
 }
 
 .lower-text p {
-  max-width: 250px;
-  text-align: center;
-  margin: auto;
-  margin-top: 30px;
-  font-size: large;
+    max-width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: large;
 }
 
 .illus8 {
-  height: 200px;
-  margin-left: 475px;
-  margin-top: -150px;
+    height: 200px;
+    margin-left: 475px;
+    margin-top: -150px;
 }
 
 @media screen and (max-width: 1280px) {
-  .illus2 {
-    height: 450px;
-    width: 600px;
-    margin-top: 0px;
-  }
+    .illus2 {
+        height: 450px;
+        width: 600px;
+        margin-top: 0px;
+    }
 
-  .line {
-    display: none;
-  }
+    .line {
+        display: none;
+    }
 
-  .illus7 {
-    display: none;
-  }
+    .illus7 {
+        display: none;
+    }
 
-  .illus8 {
-    display: none;
-  }
+    .illus8 {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .illus2 {
-    display: none;
-  }
+    .illus2 {
+        display: none;
+    }
 
-  .illus3 {
-    width: 200px;
-    margin: 0;
-    margin-left: -100px;
-  }
+    .illus3 {
+        width: 200px;
+        margin: 0;
+        margin-left: -100px;
+    }
 
-  .upr-text {
-    max-width: 80%;
-    margin: auto;
-  }
+    .upr-text {
+        max-width: 80%;
+        margin: auto;
+    }
 
-  .upr-text h1 {
-    margin-top: 0;
-  }
+    .upr-text h1 {
+        margin-top: 0;
+    }
 
-  .illus4 {
-    display: none;
-  }
+    .illus4 {
+        display: none;
+    }
 
-  .mid-text {
-    max-width: 80%;
-    margin: auto;
-  }
+    .mid-text {
+        max-width: 80%;
+        margin: auto;
+    }
 
-  .col-md-3 svg {
-    width: 60%;
-  }
+    .col-md-3 svg {
+        width: 60%;
+    }
 
-  .col-md-3 {
-    margin: auto;
-  }
+    .col-md-3 {
+        margin: auto;
+    }
 
-  .upr-right svg {
-    height: 400px;
-    width: 550px;
-    margin-left: 15%;
-  }
+    .upr-right svg {
+        height: 400px;
+        width: 550px;
+        margin-left: 15%;
+    }
 }
 
-@media screen and (max-width: 450px) {
-}
+@media screen and (max-width: 450px) {}

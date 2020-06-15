@@ -23,6 +23,19 @@
   </head>
 
   <body>
+    <nav id="navbar" class="navBar">
+      <div class="toggle">
+        <i class="fa fa-bars menu"></i>
+      </div>
+      <div class="nav-list">
+        <ul class="active">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">For Students</a></li>
+          <li><a href="#">For Colleges</a></li>
+          <li><a href="#">For Companies</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="wrapper">
       <div class="row">
         <div class="upr-left col-md-6">
@@ -6559,5 +6572,29 @@
         </div>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".menu").click(function () {
+          $(".active").toggle(500);
+          if ($("i").hasClass("fa fa-bars")) {
+            $("i").removeClass("fa fa-bars");
+            $("i").addClass("fa fa-times");
+          } else if ($("i").hasClass("fa fa-times")) {
+            $("i").removeClass("fa fa-times");
+            $("i").addClass("fa fa-bars");
+          }
+        });
+      });
+    </script>
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navBar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
   </body>
 </html>
