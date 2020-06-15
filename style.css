@@ -46,11 +46,13 @@ ul li {
 
 ul li a {
     color: black;
+    padding: 5px 8px;
     text-decoration: none;
 }
 
 ul li a:hover {
     color: black;
+    background-color: rgb(204, 232, 250);
     text-decoration: none;
 }
 
