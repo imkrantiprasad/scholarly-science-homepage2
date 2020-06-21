@@ -113,7 +113,9 @@ ul li a:hover {
 }
 
 .upr-text p {
-  font-size: 19.5px;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: -0.1px;
   font-family: "Oxygen", sans-serif;
   /* text-align: justify; */
 }
@@ -130,7 +132,9 @@ ul li a:hover {
 }
 
 .mid-text {
-  font-size: 19.5px;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: -0.1px;
   font-family: "Oxygen", sans-serif;
   max-width: 50%;
   /* line-height: 30px; */
@@ -175,7 +179,9 @@ ul li a:hover {
   text-align: center;
   margin: auto;
   margin-top: 30px;
-  font-size: 19.5px;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: -0.1px;
   font-family: "Oxygen", sans-serif;
 }
 
