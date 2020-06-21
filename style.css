@@ -13,8 +13,6 @@ nav {
   width: 65%;
   background: white;
   z-index: 999;
-  /* position: fixed; */
-  /* border: 1px solid red; */
   display: block;
 }
 
@@ -25,7 +23,6 @@ ul {
 }
 
 .nav-list {
-  /* float: right; */
   margin-left: 180px;
 }
 
@@ -52,13 +49,11 @@ ul li a:hover {
 .toggle {
   width: 100%;
   padding: 10px 20px;
-  /* background: #3b93ff; */
   text-align: right;
   box-sizing: border-box;
   color: #fff;
   font-size: 30px;
   display: none;
-  /* z-index: 1000; */
 }
 
 .toggle i {
@@ -99,7 +94,6 @@ ul li a:hover {
   width: 125px;
   margin-top: -90px;
   margin-left: -30px;
-  /* overflow: hidden; */
 }
 
 .upr-text {
@@ -109,16 +103,12 @@ ul li a:hover {
 
 .upr-text h1 {
   margin-top: 80px;
-  /* font-family: "Arimo", sans-serif; */
   font-weight: bolder;
 }
 
 .upr-text p {
   font-size: 19px;
   line-height: 30px;
-  /* letter-spacing: -0.1px; */
-  /* font-family: "Arimo", sans-serif; */
-  /* text-align: justify; */
 }
 
 .illus2 {
@@ -135,13 +125,9 @@ ul li a:hover {
 .mid-text {
   font-size: 19px;
   line-height: 30px;
-  /* letter-spacing: -0.1px; */
-  /* font-family: "Oxygen", sans-serif; */
   max-width: 50%;
-  /* line-height: 30px; */
   margin: auto;
   text-align: center;
-  /* font-weight: 700; */
   margin-top: -130px;
 }
 
@@ -182,7 +168,6 @@ ul li a:hover {
   margin-top: 30px;
   font-size: 19px;
   line-height: 30px;
-  /* letter-spacing: -0.1px; */
 }
 
 .illus8 {
