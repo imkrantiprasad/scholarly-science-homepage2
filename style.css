@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap");
 
 body {
   margin: 0;
@@ -36,6 +36,7 @@ ul li {
 }
 
 ul li a {
+  font-size: 18px;
   color: black;
   padding: 5px 8px;
   text-decoration: none;
@@ -101,19 +102,20 @@ ul li a:hover {
 }
 
 .upr-text {
-  margin-left: 60px;
+  margin-left: 210px;
+  max-width: 460px;
 }
 
 .upr-text h1 {
   margin-top: 80px;
   font-family: "Arimo", sans-serif;
-  font-weight: 700;
+  font-weight: bolder;
 }
 
 .upr-text p {
-  font-size: 22px;
+  font-size: 19.5px;
   font-family: "Oxygen", sans-serif;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .illus2 {
@@ -124,22 +126,18 @@ ul li a:hover {
 
 .illus3 {
   margin-left: -150px;
-}
-
-.mid p {
-  font-family: "Arimo", sans-serif;
-  font-size: large;
+  margin-top: 60px;
 }
 
 .mid-text {
-  font-size: large;
+  font-size: 19.5px;
   font-family: "Oxygen", sans-serif;
-  max-width: 70%;
-  line-height: 30px;
+  max-width: 50%;
+  /* line-height: 30px; */
   margin: auto;
   text-align: center;
-  font-weight: 700;
-  margin-top: -30px;
+  /* font-weight: 700; */
+  margin-top: -130px;
 }
 
 .illus4 {
@@ -177,7 +175,8 @@ ul li a:hover {
   text-align: center;
   margin: auto;
   margin-top: 30px;
-  font-size: large;
+  font-size: 19.5px;
+  font-family: "Oxygen", sans-serif;
 }
 
 .illus8 {
